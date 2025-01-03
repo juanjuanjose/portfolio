@@ -1,0 +1,108 @@
+@import 'global.css';
+
+
+
+header{
+  background: #000000;
+  color: white;
+  padding: 40px 30px;
+  border-bottom: 0.5px solid #3e73b8;
+}
+
+.header__inner {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+.home{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  height: 90vh; 
+  border-color: 10px solid #000;
+  background: #000000;
+  color: white;
+}
+
+
+
+.home__title  {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.title--name {
+color: #6aa9fa;
+
+}
+
+
+
+
+
+
+.home__image{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 40%;
+    object-fit: cover;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.social {
+  display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  margin-top: 20px;
+}
+
+.social__link {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  color: #3e5f8a;
+  transition: background 0.3s ease;
+
+}
+
+.social__link:hover {
+  background: #3e5f8a;
+  color: white;
+}
+
+.social__link svg {
+  width: 24px;
+  height: 24px;
+}
