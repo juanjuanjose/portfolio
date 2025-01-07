@@ -8,12 +8,12 @@
 </head>
 <body>
   <header class="header">
-    <div class="header__inner">
+    <div class="header_inner">
         <div class="header__logo">My Portfolio</div>
         <nav class="nav">
           <div class="nav__inner">
-          <a class="nav__link" href="#">INICIO</a>
-          <a class="nav__link" href="#">SOBRE MI </a>
+          <a class="nav__link" href="home">INICIO</a>
+          <a class="nav__link" href="about">SOBRE MI </a>
           <a class="nav__link" href="#">SKILLS</a>
           <a class="nav__link" href="#">CURRICULUM</a>
           <a class="nav__link" href="#">PORTFOLIO</a>
@@ -25,7 +25,7 @@
 
   <section id="Home" class="home">
     <img class="home__image" src="./images/me-profile.png" alt="">  
-    <div class="container">
+    <div class="container_home">
       <div class="home__inner">
         <h1 class="home__title">Hola, soy <span id="title--name" class="title--name">Juan Jose</span></h1>
       </div>
@@ -56,6 +56,42 @@
       </a>
 
   </div>
+  </section>
+  
+  <section class="about" id="About">
+    <hr>
+    <div class="container_about">
+      <div class="about__inner">
+       
+        <h2 class="about__title">Sobre mi</h2>
+        <p class="about__text">Soy un programador junior con conocimientos en la parte del Frontend. Me encanta aprender cosas nuevas y siempre estoy dispuesto a enfrentar nuevos desafíos.</p>
+        <div class="about__chip">
+          <label for="">
+            <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML Logo" width="24" height="24">
+            Html
+          </label>
+          <label for="">
+            <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS Logo" width="24" height="24">
+            Css
+          </label>
+          <label for="">
+            <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="JavaScript Logo" width="24" height="24">
+            Javascript
+          </label>
+          <label for="">
+            <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="Tailwind Logo" width="24" height="24">
+            Tailwind
+          </label>
+          <label for="">
+            <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React Logo" width="24" height="24">
+            React
+          </label>
+        </div>
+      </div>
+    </div>
+</section>
+
+
   </section>
 <script src="script.js"></script>
 </body>

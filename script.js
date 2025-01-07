@@ -1,5 +1,5 @@
 const title = document.getElementById("title--name");
-const textos = ["Programador", "Frontend"];
+const textos = ["Programador", "Frontend", "Juan José"];
 let index = 0;
 
 setInterval(() => {

@@ -27,4 +27,10 @@ q:before,q:after {
 }
 abbr,acronym { border:0;}
 
-
+:root{ 
+  --color-primary: #4A90E2;
+  --color-secondary: #E5E5E5;
+  --color-gray: #121212;
+  --color-bluewhite: #6bffd0;
+  --color-really-black: black;
+}
