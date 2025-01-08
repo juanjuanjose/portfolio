@@ -33,4 +33,30 @@ abbr,acronym { border:0;}
   --color-gray: #121212;
   --color-bluewhite: #6bffd0;
   --color-really-black: black;
+  --transition: all 0.3s ease;
+}
+
+p {
+  font-size: 18px;
+  color: var(--color-secondary);
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+
+h2{
+  font-size: 36px;
+  color: var(--color-bluewhite);
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  
+}
+
+
+h3{
+  font-size: 26px;
+  margin-bottom: 20px;
+  position: relative;
 }
