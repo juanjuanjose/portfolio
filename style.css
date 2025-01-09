@@ -4,11 +4,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  scroll-behavior:smooth;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   color: var(--color-secondary);
   background-color: var(--color-gray);
@@ -37,7 +36,6 @@ body {
 }
 
 .header__logo h1 {
-  font-family: 'Playfair Display', serif;
   font-size: 28px;
   font-weight: 700;
   color: var(--color-bluewhite);
@@ -106,7 +104,7 @@ body {
 }
 
 .home__image:hover {
-  transform: scale(1.05) rotate(5deg);
+  transform: scale(1.05) rotate(0deg);
 }
 
 .home--title {
@@ -156,6 +154,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
+
 
 hr {
   border: none;
@@ -263,6 +262,53 @@ hr {
 }
 
 
+.curriculum {
+  padding: 100px 5%;
+  background-color: var(--color-really-black);
+  
+}
+
+.container__curriculum {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button--download {
+  background-color: rgba(74, 144, 226, 0.1);
+  color: var(--color-secondary);
+  padding: 25px 45px;
+  font-size: 16px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: var(--transition);
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.container__curriculum a:hover {
+  background-color: rgba(74, 144, 226, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(107, 255, 208, 0.2);
+  
+}
+
+.container__curriculum svg {
+  color: var(--color-bluewhite);
+  font-size: 54px;
+  transition: var(--transition);
+  margin: 30px;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+
+
 .fade-out {
   opacity: 0;
   transform: translateY(-20px);
@@ -275,6 +321,21 @@ hr {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+
+footer {
+  padding: 20px 5%;
+  background-color: var(--color-gray);
+  text-align: center;
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
 
 @keyframes fadeInUp {
   from { 
