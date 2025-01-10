@@ -36,6 +36,12 @@ abbr,acronym { border:0;}
   --transition: all 0.3s ease;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior:smooth;
+}
+
 p {
   font-size: 18px;
   color: var(--color-secondary);
