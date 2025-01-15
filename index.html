@@ -10,24 +10,24 @@
 <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body class="leading-[1.6] text-[--color-secondary] bg-[var(--color-gray)] overflow-x-hidden ">
-  <header class="fixed top-0 inset-x-0 backdrop-blur-[10px] shadow-sm	bg-[rgba(18,18,18,0.9)] z-[1000]">
-    <div class="flex justify-between items-center px-[5%] py-[20px] mx-0 my-auto">
-        <div class="text-2xl font-bold text-[--color-bluewhite] drop-shadow-lg cursor-pointer transition-transform transform hover:scale-105"><h1>MY PORTFOLIO</h1></div>
-      <nav class="">
-        <div class="flex gap-[30px]">
-          <a class="text-[--color-secondary] no-underline text-base font-normal transition-[--transition] relative group  hover:text-[--color-bluewhite]" href="#Home">
+  <header class="fixed top-0 inset-x-0 bg-[rgba(18,18,18,0.9)] backdrop-blur-[10px] z-[1000] shadow-sm">
+    <div class="flex flex-col items-center py-[15px] px-[10%] mx-0 my-auto  md:gap-[20px]  md:justify-between md:flex-row md:px-[17.6%] md:py-[11px] px-[20%]"> 
+        <div class="text-2xl font-bold text-[--color-bluewhite]  cursor-pointer transition-[--transition] transform hover:scale-105 transition duration-300"><h1>MY PORTFOLIO</h1></div>
+      <nav>
+        <div class="flex-wrap justify-center py-[20px] gap-[25px] flex md:gap-[30px] md:flex-row md:justify-center md:gap-[30px] md:items-center">
+          <a class="text-[--color-secondary] no-underline text-base font-normal transition-[--transition] relative group relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:-bottom-[5px] after:left-0 after:bg-[var(--color-bluewhite)] after:transition-all after:duration-300 after:ease-in-out hover:text-[--color-bluewhite] " href="#Home">
               INICIO
               <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[--color-bluewhite] transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </a>
-          <a class="text-[--color-secondary] no-underline text-base font-normal transition-[--transition] relative group  hover:text-[--color-bluewhite]" href="#about">
+          <a class="text-[--color-secondary] no-underline text-base font-normal transition-[--transition] relative group relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:-bottom-[5px] after:left-0 after:bg-[var(--color-bluewhite)] after:transition-all after:duration-300 after:ease-in-out hover:text-[--color-bluewhite] " href="#about">
               SOBRE MI
               <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[--color-bluewhite] transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </a> 
-          <a class="text-[--color-secondary] no-underline text-base font-normal transition-[--transition] relative group  hover:text-[--color-bluewhite]" href="#skills">
+          <a class="text-[--color-secondary] no-underline text-base font-normal transition-[--transition] relative group relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:-bottom-[5px] after:left-0 after:bg-[var(--color-bluewhite)] after:transition-all after:duration-300 after:ease-in-out hover:text-[--color-bluewhite] " href="#skills">
               HABILIDADES
               <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[--color-bluewhite] transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </a>
-          <a class="text-[--color-secondary] no-underline text-base font-normal transition-[--transition] relative group  hover:text-[--color-bluewhite]" href="#curriculum">
+          <a class="text-[--color-secondary] no-underline text-base font-normal transition-[--transition] relative group relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:-bottom-[5px] after:left-0 after:bg-[var(--color-bluewhite)] after:transition-all after:duration-300 after:ease-in-out hover:text-[--color-bluewhite] " href="#curriculum">
               CURRICULUM
               <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[--color-bluewhite] transition-all duration-300 ease-in-out group-hover:w-full "></span>
           </a>
@@ -37,18 +37,19 @@
     </div>
   </header>
 
-  <section id="Home" class="flex flex-col items-center justify-center h-screen bg-gradient-to-r	from-[--color-gray] to-[--color-really-black]"> 
+  <section id="Home" class="px-[5%] py-[110%] flex flex-col items-center justify-center h-screen bg-gradient-to-r	from-[--color-gray] to-[--color-really-black] sm:py-[224px]">
+     
     <img class="w-[200px] h-[200px] rounded-full object-cover border-[3px] border-[--color-bluewhite] mb-8 shadow-[0_0_20px_rgba(107,255,208,0.3)] " src="./images/me-profile.png" alt="">  
     <div>
       <div>
-        <h1 id="home--title" class="text-5xl font-bold text-[--color-secondary] mb-2.5 sm:text-[28px]">Hola, soy <span id="title--name" class="text-[--color-bluewhite]">Juan Jose</span></h1>
+        <h1 id="home--title" class="text-[28px] font-bold text-[--color-secondary] mb-2.5 md:text-[48px]">Hola, soy <span id="title--name" class="text-[--color-bluewhite] ">Juan Jose</span></h1>
       </div>
    
     </div>
-    <h3 class="text-2xl text-[--color-primary] mb-8 animate-[--animation-h2] sm:text-">Programador Junior</h3>
-    <div class="flex gap-[20px] mt-8">
+    <h3 class="text-xl text-[--color-primary] mb-8 animate-[--animation-h2] sm:text-2xl">Programador Junior</h3>
+    <div class="flex gap-[20px] mt-8 flex-wrap justify-center" >
 
-      <a class="text-[--color-secondary] text-2xl transition-[--transition] hover:text-[--color-bluewhite] hover:translate-y-[-5px] sm:flex-wrap sm:justify-center" href="#" aria-label="Facebook" alt="Facebook" >
+      <a class="text-[--color-secondary] text-2xl transition-[--transition] hover:text-[--color-bluewhite] hover:translate-y-[-5px]" href="#" aria-label="Facebook" alt="Facebook" >
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
               <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-2.9h2v-2.2c0-2.1 1.2-3.2 3-3.2.9 0 1.8.2 1.8.2v2h-1.1c-1.1 0-1.4.7-1.4 1.3v1.9h2.4l-.4 2.9h-2v7A10 10 0 0 0 22 12z"/>
           </svg>
@@ -96,7 +97,7 @@
             <p>Durante mi formación de dos años en el SENA, adquirí sólidos conocimientos en desarrollo web, especializándome en HTML, CSS, JavaScript y React, con un enfoque en la creación de interfaces modernas y responsivas. En el proyecto formativo para la etapa de prácticas, fui responsable del diseño del sitio web "Misak", el cual fue destacado por su propuesta innovadora, estética atractiva y representación cultural, reforzando mis habilidades en diseño web y atención al detalle. </p>
             <img class="max-w-full h-14 rounded mt-3.5 absolute right-[0.94rem] bottom-[0.94rem] pt-4" src="/images/sena.png" alt="sena image">
           </div>
-          <div class="bg-[rgba(255,255,255,0.05)] p-5 mb-5 transition-[--transition] relative rounded-lg hover:shadow-lg hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6">
+          <div class="bg-[rgba(255,255,255,0.05)] p-5 mb-5 transition-[--transition] relative rounded-lg hover:-lg hover:trashadownslate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6">
             <h3 class="text-red-500 mb-2.5 mt-3  ">CASD</h3>                                                    
             <p>Durante los grados 10 y 11 en el CASD, cursé una formación tecnológica de dos años donde adquirí conocimientos en desarrollo de aplicaciones móviles con App Inventor, fundamentos de hardware y ciberseguridad, lo que me permitió desarrollar una base integral en tecnología y programación desde temprana edad.</p>
             <img class="max-w-full h-14 rounded mt-3.5 absolute right-[0.94rem] bottom-[0.94rem] pt-4" src="/images/casd.png" alt="casd image">
@@ -117,24 +118,24 @@
           Soy un desarrollador web junior con una sólida base en CSS, lo que me permite crear diseños modernos y responsivos con un enfoque visualmente atractivo. Aunque soy relativamente nuevo en el campo, manejo HTML, y CSS con fluidez, y tengo experiencia trabajando con frameworks como Tailwind y bibliotecas como React. Estoy desarrollando mis habilidades y combinando estos conocimientos para crear interfaces funcionales y estéticamente agradables.
         </p>
       <div class="flex justify-center gap-[20px] flex-wrap">
-        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-4 px-6 text-base rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)] hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 " for="">
-          <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML Logo" width="24" height="24">
+        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-[20px] px-[20px] text-[14px] rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)] hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 sm:text-base md:py-4 md:px-6" for="">
+        <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML Logo" width="24" height="24">
           Html
         </label>
-        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-4 px-6 text-base rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)] hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 " for="">
-          <img class="w-6 h-6" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS Logo" width="24" height="24">
+        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-[20px] px-[20px] text-[14px] rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)] hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 sm:text-base md:py-4 md:px-6" for="">
+        <img class="w-6 h-6" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS Logo" width="24" height="24">
           Css
         </label>
-        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-4 px-6 text-base rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)] hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 " for="">
-          <img class="w-6 h-6" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="JavaScript Logo" width="24" height="24">
+        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-[20px] px-[20px] text-[14px] rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)] hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 sm:text-base md:py-4 md:px-6" for="">
+        <img class="w-6 h-6" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="JavaScript Logo" width="24" height="24">
           Javascript
         </label>
-        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-4 px-6 text-base rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)]hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6" for="">
-          <img class="w-6 h-6" src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="Tailwind Logo" width="24" height="24">
+        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-[20px] px-[20px] text-[14px] rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)]hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 sm:text-base md:py-4 md:px-6" for="">
+        <img class="w-6 h-6" src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="Tailwind Logo" width="24" height="24">
           Tailwind
         </label>
-        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-4 px-6 text-base rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)] hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 " for="">
-          <img class="w-6 h-6" src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React Logo" width="24" height="24">
+        <label class="bg-[rgba(74,144,226,0.1)] text-[--color-secondary] py-[20px] px-[20px] text-[14px] rounded-3xl flex align-center gap-2.5 transition-[--transition] cursor-pointer hover:bg-[rgba(74,144,226,0.2)] hover:translate-y-[-5px] hover:shadow-[0_5px_15px_rgba(107,255,208,0.2)] p-6 sm:text-base md:py-4 md:px-6" for="">
+        <img class="w-6 h-6" src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React Logo" width="24" height="24">
           React
         </label>
       </div>
@@ -168,8 +169,8 @@
     </div>
   </section>
 
-  <footer>
-    <div class="footer__inner">
+  <footer class="py-5 px-[5%] bg-[--color-gray] text-center">
+    <div>
       <p>© 2021 Juan Jose Perez Buritica</p>
     </div>
   </footer>
